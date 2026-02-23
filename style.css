@@ -1,7 +1,9 @@
-/* *{
-    background-color: aquamarine;
+*{
+    margin:0;
+    padding:0;
 
-} */
+}
+
 h1{
     color:rgb(14, 1, 125);
 }
@@ -15,4 +17,31 @@ h1{
 /* this is where my list starts */
 .food{
     background-color:chartreuse;
+}
+
+#sample{
+    background-color: burlywood;
+    /* border-color:3px rgba(0, 0, 0, 0.027) solid; */
+    border:5px red solid;
+    
+}
+
+.first{
+    border-style: dotted;
+    margin:10px 15px;
+    padding:30px;
+}
+
+/* My flexbox properties */
+.container{
+    background-color:aqua;
+
+}
+
+.childContainer{
+    background-color: blueviolet;
+    display: flex;
+    /* flex-direction: row; */
+    /* gap:10px; */
+    justify-content: space-between;
 }
